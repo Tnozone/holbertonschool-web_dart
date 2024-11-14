@@ -9,5 +9,5 @@ int sub(int a, int b) {
 String showFunc(int a, int b) {
     var c = add(a, b);
     var d = sub(a, b);
-    return "$a + $b = $c\n$a - $b = $d";
+    return "Add $a + $b = $c\nSub $a - $b = $d";
 }
